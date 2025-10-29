@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		meta(charset='UTF-8')/
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')/
+		meta(name='author', content='Luis Carrillo Gutiérrez')/
+		meta(name='description', content='Test _INLINE_ and _BLOCK_ attributes w/ CSS.')/
+		title PADDING w/ CSS
+		style(type='text/css')
+			| button { font: 14pt 'Montserrat, Helvetica, Arial, sans-serif'; font-weight: 300; border: 2px solid #353935; border-radius: 6px; }
+			| .old { padding: 0.25rem 1.5rem; }
+			| .new { padding-block: 0.25rem; padding-inline: 1.5rem; }
+	body
+		p
+			button.old Example
+		p
+			button.new Example
