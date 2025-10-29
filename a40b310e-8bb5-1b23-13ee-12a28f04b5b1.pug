@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")/
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')/
+		title Responsive columns et balanced text wrapping
+		meta(name='author', content='Luis Carrillo Gutiérrez')
+		meta(name='description', content='Responsive Columns et Balanced Title')
+		style(type='text/css')
+			| body { background-color: #eafbf3; }
+			| h1 { color: #6ab99c; text-wrap: balance; }
+			| h5 { color: gray; }
+			| .article-content { columns: auto 20rem; background-color: #fff; padding: 1em; margin: .5em; }
+			| .t1 { color: #545653; }
+			| .t2 { color: #c7456b; }
+	body
+		h5 Oct 29, 2025
+		h1 
+			span.t1 Lorem 
+			| Ipsum
+		div.article-content
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis auctor nunc. Cras sed feugiat nulla. Nulla vel molestie mauris. Etiam augue lorem, iaculis a sapien et, ultrices aliquet arcu. Etiam et lectus tortor. Vestibulum semper sed dui nec euismod. Nullam eget finibus purus, sit amet finibus ipsum. Duis lacinia mattis feugiat. Maecenas pulvinar, velit at molestie suscipit, enim ex rhoncus felis, ut commodo lorem orci vel massa. Mauris rhoncus ultrices turpis at mattis.
